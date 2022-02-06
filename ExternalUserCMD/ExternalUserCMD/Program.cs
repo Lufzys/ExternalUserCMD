@@ -10,7 +10,7 @@ namespace ExternalUserCMD
     {
         static void Main(string[] args)
         {
-            Console.Title = "Valve Games - Execute Command";
+            Console.Title = "Source Engine Games - Execute Command";
         start:
 
             Console.Clear();
