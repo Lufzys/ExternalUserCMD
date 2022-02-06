@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExternalUserCMD
+namespace ExternalUserCMD https://github.com/Lufzys/ExternalUserCMD/blob/main/ExternalUserCMD/ExternalUserCMD/UserCMD.cs
 {
-    class UserCMD // The project written in C++ is adapted to C# -> Original Source Code : https://www.unknowncheats.me/forum/counterstrike-global-offensive/468386-external-shellcode-execute-console-command.html
+    class UserCMD // The project written in C++ is adapted to C# by Lufzys1337 -> Original Source Code : https://www.unknowncheats.me/forum/counterstrike-global-offensive/468386-external-shellcode-execute-console-command.html
     {
         public static void Execute(string command)
         {
