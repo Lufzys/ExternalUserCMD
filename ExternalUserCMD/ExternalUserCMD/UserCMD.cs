@@ -12,6 +12,7 @@ namespace ExternalUserCMD // https:github.com/Lufzys/ExternalUserCMD/blob/main/E
         public static void Execute(string command)
         {
             IntPtr m_hEngine = WinAPI.FindWindowA("Valve001", null);
+            if (m_hEngine == null) return;
 
             IntPtr commandPtr = (IntPtr)Marshal.StringToHGlobalAnsi(command);
             Structs.COPYDATASTRUCT copyData = new Structs.COPYDATASTRUCT();
